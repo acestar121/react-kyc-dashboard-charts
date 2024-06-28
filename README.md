@@ -2,6 +2,9 @@
 
 This project is a React application that displays a dashboard inspired by a given design. The dashboard features a table with KYC application reports and two types of charts (Pie Chart and Bar Chart) to visualize the status of the applications.
 
+![Project Image](public/screenshot.png)
+
+
 ## Project Structure
 
 - **components/**: Contains the React components for the Dashboard, PieChart, BarChart, and ApplicationTable.
@@ -32,12 +35,16 @@ This project is a React application that displays a dashboard inspired by a give
    cd react-kyc-dashboard-charts
    ```
 2. Install the dependencies:
+   ```sh
    npm install
+   ```
 
 ### Running the Application
 
 1. Start the development server:
+   ```sh
    npm start
+   ```
 
 2. Open your browser and navigate to http://localhost:3000 to see the application running.
 
@@ -55,15 +62,15 @@ In the project directory, you can run:
 - `npm run build`: Builds the app for production to the build folder.
 - `npm run eject`: Removes the single build dependency from your project.
 
-### Contributing
+## Contributing
 
     Contributions are welcome! Please open an issue or submit a pull request for any changes or improvements.
 
-### License
+## License
 
     This project is licensed under the MIT License. See the LICENSE file for details.
 
-### Acknowledgements
+## Acknowledgements
 
     React
     D3.js
