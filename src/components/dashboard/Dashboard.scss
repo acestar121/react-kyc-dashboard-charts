@@ -1,0 +1,24 @@
+.dashboard {
+  padding: 16px 24px;
+  background-color: #fafafa;
+  height: 100%;
+  font-family: sans-serif;
+  .title-container {
+    margin-bottom: 24px;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .reports-section {
+    border-bottom: 1px solid #ddd;
+    background-color: white;
+    .reports-section-title {
+      padding: 12px 24px;
+      font-weight: bold;
+      font-size: 24px;
+    }
+    .chart-container {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}

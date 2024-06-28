@@ -1,0 +1,42 @@
+.bar-chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 0;
+  position: relative;
+
+  rect {
+    cursor: none;
+  }
+  .bar {
+    transition: fill 0.3s ease;
+
+    &:hover {
+      fill: darkblue;
+    }
+  }
+
+  g.x-axis,
+  g.y-axis {
+    .tick {
+      text {
+        font-size: 12px;
+      }
+      line {
+        display: none;
+      }
+    }
+  }
+
+  .tooltip {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 3px;
+    pointer-events: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+}

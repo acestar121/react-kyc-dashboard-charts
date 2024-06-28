@@ -1,0 +1,51 @@
+// src/components/PieChart.scss
+.pie-chart-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: sans-serif;
+
+  svg {
+    display: block;
+  }
+
+  .tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 8px;
+    font-size: 12px;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+  }
+
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      margin: 16px 10px;
+      cursor: pointer;
+
+      .legend-color {
+        width: 12px;
+        height: 12px;
+        margin-right: 10px;
+      }
+
+      .legend-label {
+        font-size: 12px;
+      }
+    }
+  }
+  path {
+    cursor: none;
+  }
+}
